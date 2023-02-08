@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.querySelector('#root'))
 root.render(
   <>
   <Canvas>
-  <mesh position={2}>
+  <mesh position={3}>
         <boxGeometry  attach="geometry" />
         <meshBasicMaterial attach="material" color="red" />
     </mesh>
